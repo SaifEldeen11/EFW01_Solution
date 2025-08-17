@@ -1,4 +1,5 @@
-﻿namespace EFW01
+﻿// This code was made by Eng Saif :)
+namespace EFW01
 {
     internal class Program
     {
@@ -14,8 +15,13 @@
             // delete Name in Department
             // create a new CName in courses
             // Read a student that has name "Saif"
-            var result = context.students.Where(s => s.FName == "Saif").ToList();
-            Console.WriteLine(result);
+
+
+            //var result = context.students.Where(s => s.FName == "Saif").ToList();
+            //foreach (var resultItem in result)
+            //{
+            //    Console.WriteLine(resultItem);
+            //}
         }
     }
 }
